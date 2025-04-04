@@ -1,0 +1,44 @@
+# Comments start with '#'
+
+# Ignore node_modules directory and its contents (commonly used in Node.js projects)
+node_modules/
+venv/
+
+# Ignore log files (files ending with .log)
+*.log
+
+# Ignore temporary files (files ending with .tmp)
+*.tmp
+
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build output directories
+bin/
+obj/
+build/
+dist/
+
+# Ignore environment files that might contain sensitive information
+.env
+config.ini
+
+# Ignore specific files
+file_to_ignore.txt
+
+# Ignore all files in a directory, but not the directory itself
+logs/*
+!logs/keep_this_log.log
+
+# Ignore files with a specific extension in a specific directory
+specific_directory/*.pdf
+
+# Ignore nested directories
+nested/directory/
+
+# Ignore files with a pattern in nested directories
+**/nested_pattern/*
+
+# Ignore all files in any directory named "test"
+test/
