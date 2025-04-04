@@ -2,7 +2,7 @@
 
 # Ignore node_modules directory and its contents (commonly used in Node.js projects)
 node_modules/
-venv/
+*env/
 
 # Ignore log files (files ending with .log)
 *.log

@@ -1,5 +1,3 @@
-#njpw zwij jatd slni
-# 
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -15,7 +13,7 @@ def send_email(subject, body):
     # Fetch credentials from environment variables
     sender_email = "rachel.goeken@gmail.com"
     receiver_email = "rachel.goeken@gmail.com"
-    password = "njpw zwij jatd slni"         # Your 16-digit app password
+    password = ""         # Your 16-digit app password
 
     if not sender_email or not receiver_email or not password:
         print("Missing email credentials in environment variables.")
